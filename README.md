@@ -1,19 +1,19 @@
-# BOIPA-PHP-SDK
-This  library provides integration access to the BOIPA Gateway.
+# EVO-PHP-SDK
+This  library provides integration access to the EVO Gateway.
 
 ## Quick Start
 
-BOIPA Gateway PHP SDK is a small library of PHP code that you can use to quickly integrate with the BOIPA Gateway system and submit transactions, check their status and more.
+EVO Gateway PHP SDK is a small library of PHP code that you can use to quickly integrate with the EVO Gateway system and submit transactions, check their status and more.
 
 This section will give you a very quick introduction as to how you can use it and later in this document you will find more details.
 
 ## Before you Begin
 
-Before using the BOIPA Gateway PHP SDK you should be familiar with the contents of the [API Specification for Merchants](docs/API-Specification.pdf) document as it describes all fields and their meaning within a given payment transaction.
+Before using the EVO Gateway PHP SDK you should be familiar with the contents of the [API Specification for Merchants](docs/API-Specification.pdf) document as it describes all fields and their meaning within a given payment transaction.
 
 ## Setup your Project
 
-BOIPA Gateway PHP SDK is delivered as a composer(*) package, or dependency, that you should add to your PHP project in order to use it.
+EVO Gateway PHP SDK is delivered as a composer(*) package, or dependency, that you should add to your PHP project in order to use it.
 
 Once done - all its code will be available to you under the Payments PHP namespace.
 
@@ -21,7 +21,7 @@ Once done - all its code will be available to you under the Payments PHP namespa
 
 ##Choose an Operation Mode
 
-BOIPA Gateway SDK lets you choose between two ways of using it:
+EVO Gateway SDK lets you choose between two ways of using it:
 
 * __Server-to-Server mode__ - where your PHP code performs all necessary preparations and operations on behalf of the user, but without his or her direct involvement, or
  
